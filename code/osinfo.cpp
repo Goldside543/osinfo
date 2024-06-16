@@ -1,5 +1,4 @@
-#include <iostream>
-#include <sys/utsname.h>
+#include <osinfo.h>
 
 int main() {
     struct utsname info;
