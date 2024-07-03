@@ -1,7 +1,7 @@
 #include <osinfo.h>
 
 
-int main() {
+int memoryinfo() {
     std::ifstream meminfo("/proc/meminfo");
     std::string line;
     
