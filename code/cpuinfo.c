@@ -1,6 +1,6 @@
 #include <osinfo.h>
 
-int main() {
+int cpuinfo() {
     FILE *cpuinfo = fopen("/proc/cpuinfo", "rb");
     char *line = NULL;
     size_t size = 0;
