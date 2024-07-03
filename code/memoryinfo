@@ -1,6 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <string>
+#include <osinfo.h>
+
 
 int main() {
     std::ifstream meminfo("/proc/meminfo");
