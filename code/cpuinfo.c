@@ -1,4 +1,4 @@
-#include <osinfo.h>
+#include <sysinfo.h>
 
 int cpuinfo() {
     FILE *cpuinfo = fopen("/proc/cpuinfo", "rb");
