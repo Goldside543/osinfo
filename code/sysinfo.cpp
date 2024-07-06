@@ -1,6 +1,6 @@
 #include <sysinfo.h>
-int cpuinfo;
-int memoryinfo;
+int cpuinfo();
+int memoryinfo();
 
 int main() {
     struct utsname info;
