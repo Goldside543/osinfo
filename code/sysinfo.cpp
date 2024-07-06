@@ -9,6 +9,11 @@ int main() {
     } else {
         std::cerr << "Error getting system information." << std::endl;
     }
+
+    // the following code should call cpuinfo and memoryinfo (please god let me have a break)
+    cpuinfo();
+    memoryinfo();
+    // please work
     return 0;
 }
 
